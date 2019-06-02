@@ -4,20 +4,23 @@ import org.testng.annotations.Test;
 
 public class GroupExecutionTest {
 	
-	@Test(groups={"smoke"})
-	public void login()
-	{
+	@Test(groups= {"smoke","Regression"})
+	public void configBM() {
+		System.out.println("Before Method");
+	}
+
+	@Test(groups = { "smoke" })
+	public void login() {
 		System.out.println("Login Script");
 	}
-	
-	@Test(groups= {"Regression"})
-	public void purchaseProduct()
-	{
+
+	@Test(groups = { "Regression" })
+	public void purchaseProduct() {
 		System.out.println("Purchase Script");
 	}
-	@Test(groups= {"Regression"})
-	public void payment()
-	{
+
+	@Test(groups = { "Regression" })
+	public void payment() {
 		System.out.println("Payment script");
 	}
 
