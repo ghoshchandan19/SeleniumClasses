@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26" started-at="2019-06-02T16:39:22Z" finished-at="2019-06-02T16:39:22Z">
+    <groups>
+      <group name="Regression">
+        <method signature="GroupExecutionTest.payment()[pri:0, instance:package2.GroupExecutionTest@5034c75a]" name="payment" class="package2.GroupExecutionTest"/>
+        <method signature="GroupExecutionTest.purchaseProduct()[pri:0, instance:package2.GroupExecutionTest@5034c75a]" name="purchaseProduct" class="package2.GroupExecutionTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="26" started-at="2019-06-02T16:39:22Z" finished-at="2019-06-02T16:39:22Z">
+      <class name="package2.GroupExecutionTest">
+        <test-method status="PASS" signature="payment()[pri:0, instance:package2.GroupExecutionTest@5034c75a]" name="payment" duration-ms="7" started-at="2019-06-02T16:39:22Z" finished-at="2019-06-02T16:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:package2.GroupExecutionTest@5034c75a]" name="purchaseProduct" duration-ms="1" started-at="2019-06-02T16:39:22Z" finished-at="2019-06-02T16:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+      </class> <!-- package2.GroupExecutionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
