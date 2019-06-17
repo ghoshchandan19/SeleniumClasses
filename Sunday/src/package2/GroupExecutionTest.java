@@ -2,11 +2,11 @@ package package2;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.ITestAnnotation;
 import org.testng.annotations.Test;
 
 public class GroupExecutionTest {
 	
-	@BeforeClass(groups= {"Regression"})
 	public void configBC() {
 		System.out.println("Before Class");
 	}
