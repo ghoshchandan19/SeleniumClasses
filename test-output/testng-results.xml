@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[Home Page is verified]]>
-    </line>
-    <line>
-      <![CDATA[Invalid Login Msg is verified]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="11613" started-at="2019-06-17T17:02:22Z" finished-at="2019-06-17T17:02:34Z">
+  <suite name="Default suite" duration-ms="7995" started-at="2019-06-18T19:33:37Z" finished-at="2019-06-18T19:33:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11613" started-at="2019-06-17T17:02:22Z" finished-at="2019-06-17T17:02:34Z">
-      <class name="package2.HardAssertTest">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:package2.HardAssertTest@2a5ca609]" name="preCondition" is-config="true" duration-ms="4342" started-at="2019-06-17T17:02:22Z" finished-at="2019-06-17T17:02:26Z">
+    <test name="Default test" duration-ms="7995" started-at="2019-06-18T19:33:37Z" finished-at="2019-06-18T19:33:45Z">
+      <class name="package2.LoginTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:package2.LoginTest@2a2d45ba]" name="preCondition" is-config="true" duration-ms="4005" started-at="2019-06-18T19:33:37Z" finished-at="2019-06-18T19:33:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="validLogin()[pri:1, instance:package2.HardAssertTest@2a5ca609]" name="validLogin" duration-ms="861" started-at="2019-06-17T17:02:26Z" finished-at="2019-06-17T17:02:27Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Home Page is verified]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:package2.HardAssertTest@2a5ca609]" name="postCondition" is-config="true" duration-ms="2103" started-at="2019-06-17T17:02:27Z" finished-at="2019-06-17T17:02:29Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:package2.LoginTest@2a2d45ba]" name="login" duration-ms="223" started-at="2019-06-18T19:33:41Z" finished-at="2019-06-18T19:33:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:package2.HardAssertTest@2a5ca609]" name="preCondition" is-config="true" duration-ms="3922" started-at="2019-06-17T17:02:29Z" finished-at="2019-06-17T17:02:33Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:package2.LoginTest@2a2d45ba]" name="preCondition" is-config="true" duration-ms="3492" started-at="2019-06-18T19:33:41Z" finished-at="2019-06-18T19:33:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:package2.HardAssertTest@2a5ca609]" name="invalidLogin" duration-ms="300" started-at="2019-06-17T17:02:33Z" finished-at="2019-06-17T17:02:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Invalid Login Msg is verified]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:package2.HardAssertTest@2a5ca609]" name="postCondition" is-config="true" duration-ms="64" started-at="2019-06-17T17:02:33Z" finished-at="2019-06-17T17:02:34Z">
+        <test-method status="PASS" signature="rememberLogin()[pri:2, instance:package2.LoginTest@2a2d45ba]" name="rememberLogin" duration-ms="258" started-at="2019-06-18T19:33:45Z" finished-at="2019-06-18T19:33:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- package2.HardAssertTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- rememberLogin -->
+      </class> <!-- package2.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

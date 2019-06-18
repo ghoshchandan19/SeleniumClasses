@@ -5,8 +5,10 @@
   <listeners>
   <listener class-name="package2.MyTestNGListener"/>
   </listeners>
+  <test name="Test">
+
     <classes>
       <class name="package2.ListenerTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 
