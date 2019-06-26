@@ -27,7 +27,7 @@ public class LoginTest {
 
 	@Test(priority=1)
 	public void login() {
-		LoginPage login = new LoginPage(driver);
+		LoginPagePom login = new LoginPagePom(driver);
 		login.getUnTxtBx().sendKeys("admin");
 		login.getPwdTxtBx().sendKeys("manager");
 		login.getLoginBtn().click();
@@ -37,7 +37,7 @@ public class LoginTest {
 	@Test(priority=2)
 	public void rememberLogin()
 	{
-		LoginPage login = new LoginPage(driver);
+		LoginPagePom login = new LoginPagePom(driver);
 		login.getUnTxtBx().sendKeys("admin");
 		login.getPwdTxtBx().sendKeys("manager");
 		login.getChkBx().click();

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import lombok.Getter;
 
-public class LoginPage {
+public class LoginPagePom {
 	
 	@FindBy(name="username")
 	private @Getter WebElement unTxtBx;
@@ -19,7 +19,7 @@ public class LoginPage {
 	private @Getter WebElement loginBtn;
 	
 
-	public LoginPage(WebDriver driver)
+	public LoginPagePom(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}

@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9105" started-at="2019-06-19T06:53:53Z" finished-at="2019-06-19T06:54:02Z">
+  <suite name="Default suite" duration-ms="13099" started-at="2019-06-26T15:37:11Z" finished-at="2019-06-26T15:37:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9105" started-at="2019-06-19T06:53:53Z" finished-at="2019-06-19T06:54:02Z">
+    <test name="Default test" duration-ms="13099" started-at="2019-06-26T15:37:11Z" finished-at="2019-06-26T15:37:25Z">
       <class name="package3.LoginTest">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:package3.LoginTest@2a5ca609]" name="preCondition" is-config="true" duration-ms="4660" started-at="2019-06-19T06:53:53Z" finished-at="2019-06-19T06:53:58Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:package3.LoginTest@3532ec19]" name="preCondition" is-config="true" duration-ms="4254" started-at="2019-06-26T15:37:11Z" finished-at="2019-06-26T15:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="login()[pri:1, instance:package3.LoginTest@2a5ca609]" name="login" duration-ms="225" started-at="2019-06-19T06:53:58Z" finished-at="2019-06-19T06:53:58Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:package3.LoginTest@3532ec19]" name="login" duration-ms="255" started-at="2019-06-26T15:37:16Z" finished-at="2019-06-26T15:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:package3.LoginTest@2a5ca609]" name="postCondition" is-config="true" duration-ms="68" started-at="2019-06-19T06:53:58Z" finished-at="2019-06-19T06:53:58Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:package3.LoginTest@3532ec19]" name="postCondition" is-config="true" duration-ms="2116" started-at="2019-06-26T15:37:16Z" finished-at="2019-06-26T15:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:package3.LoginTest@2a5ca609]" name="preCondition" is-config="true" duration-ms="3835" started-at="2019-06-19T06:53:58Z" finished-at="2019-06-19T06:54:02Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:package3.LoginTest@3532ec19]" name="preCondition" is-config="true" duration-ms="3796" started-at="2019-06-26T15:37:18Z" finished-at="2019-06-26T15:37:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="rememberLogin()[pri:2, instance:package3.LoginTest@2a5ca609]" name="rememberLogin" duration-ms="241" started-at="2019-06-19T06:54:02Z" finished-at="2019-06-19T06:54:02Z">
+        <test-method status="PASS" signature="rememberLogin()[pri:2, instance:package3.LoginTest@3532ec19]" name="rememberLogin" duration-ms="524" started-at="2019-06-26T15:37:22Z" finished-at="2019-06-26T15:37:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rememberLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:package3.LoginTest@2a5ca609]" name="postCondition" is-config="true" duration-ms="59" started-at="2019-06-19T06:54:02Z" finished-at="2019-06-19T06:54:02Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:package3.LoginTest@3532ec19]" name="postCondition" is-config="true" duration-ms="2129" started-at="2019-06-26T15:37:22Z" finished-at="2019-06-26T15:37:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
