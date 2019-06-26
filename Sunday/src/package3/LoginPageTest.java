@@ -8,9 +8,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTest {
+import package2.LoginPage;
 
-WebDriver driver;
+public class LoginPageTest {
+	
+	WebDriver driver;
 	
 	@BeforeMethod
 	public void preCondition() {
@@ -25,7 +27,7 @@ WebDriver driver;
 
 	@Test(priority=1)
 	public void login() {
-		LoginPage login = new LoginPage(driver);
+		LoginPagePom login = new LoginPagePom(driver);
 		login.getUnTxtBx().sendKeys("admin");
 		login.getPwdTxtBx().sendKeys("manager");
 		login.getLoginBtn().click();
@@ -35,7 +37,7 @@ WebDriver driver;
 	@Test(priority=2)
 	public void rememberLogin()
 	{
-		LoginPage login = new LoginPage(driver);
+		LoginPagePom login = new LoginPagePom(driver);
 		login.getUnTxtBx().sendKeys("admin");
 		login.getPwdTxtBx().sendKeys("manager");
 		login.getChkBx().click();
@@ -49,8 +51,4 @@ WebDriver driver;
 	}
 
 
-		
-
-	}
-
-
+}
