@@ -17,7 +17,10 @@ public class SeleniumPage {
 	public SeleniumPage(WebDriver driver) {
 		about = driver.findElement(By.xpath("//li[@id='menu_about']/a"));
 		support =driver.findElement(By.xpath("//li[@id='menu_support']/a"));
-		driver.findElement(By.xpath(" "));
+		doc=driver.findElement(By.xpath("//li[@id='menu_documentation']/a"));
+		download=driver.findElement(By.xpath("//li[@id='menu_download']/a"));
+		projects=driver.findElement(By.xpath("//li[@id='menu_projects']/a"));
+		
 
 	}
 

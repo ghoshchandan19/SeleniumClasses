@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoggingDemo {
+	 
 	 static final Logger log=Logger.getLogger(LoggingDemo.class);
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Chandan Ghosh\\Downloads\\Sunday\\Sunday\\exefiles\\chromedriver.exe");
